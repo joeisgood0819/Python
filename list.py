@@ -20,4 +20,60 @@ print(x)
 
 x = [1:3] = ["one", "two", "three"] #可以更多也可以更少=直接取代替換
 
+# Creating an empty list
+my_list = []
+
+# Append method adds an element to the end of the list
+my_list.append(1)
+my_list.append(2)
+my_list.append(3)
+
+# Display the list after appending elements
+print("After append:", my_list)
+
+# Extend method adds elements from another iterable (e.g., list) to the end of the list
+additional_elements = [4, 5, 6]
+my_list.extend(additional_elements)
+
+# Display the list after extending with additional elements
+print("After extend:", my_list)
+
+# Insert method inserts an element(10) at a specific index(1)
+my_list.insert(1, 10)
+
+# Display the list after inserting an element at index 1
+print("After insert:", my_list)
+
+# Delete an element by its index using the del statement
+del my_list[2]
+
+# Display the list after deleting the element at index 2
+print("After del:", my_list)
+
+# Remove method removes the first occurrence of a value
+my_list.remove(5)
+
+# Display the list after removing the value 5
+print("After remove:", my_list)
+
+# Reverse method reverses the elements of the list in place
+my_list.reverse()
+
+# Display the list after reversing its elements
+print("After reverse:", my_list)
+
+# Sort method sorts the elements of the list in ascending order
+my_list.sort()
+
+# Display the list after sorting in ascending order
+print("After sort:", my_list)
+
+# Sorted function returns a new sorted list without modifying the original list
+sorted_list = sorted(my_list)
+
+# Display the sorted list without modifying the original list
+print("Sorted list:", sorted_list)
+print("Original list:", my_list)
+
+
 
