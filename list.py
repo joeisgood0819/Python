@@ -75,5 +75,22 @@ sorted_list = sorted(my_list)
 print("Sorted list:", sorted_list)
 print("Original list:", my_list)
 
+#自定義排序 速度較慢能不用就不用
+
+# Define a function named compare_num_of_chars
+def compare_num_of_chars(string1):
+    # The len() function returns the length (number of characters) of the input string
+    return len(string1)
+
+# Call the function with a string argument
+result = compare_num_of_chars("Hello, World!")
+
+# Print the result
+print("Number of characters:", result)
+
+#Number of characters: 13
+
+
+
 
 
