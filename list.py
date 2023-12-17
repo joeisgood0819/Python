@@ -18,7 +18,7 @@ y = x
 y [0] = 'one' #同步修改
 print(x)
 
-x = [1:3] = ["one", "two", "three"] #可以更多也可以更少=直接取代替換
+x[1:3] = ["one", "two", "three"] #可以更多也可以更少=直接取代替換
 
 # Creating an empty list
 my_list = []
@@ -90,6 +90,42 @@ print("Number of characters:", result)
 
 #Number of characters: 13
 
+# Creating a list of numbers
+numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+
+# The 'in' keyword checks if a value is present in the list
+is_present = 5 in numbers
+print("Is 5 present in the list?", is_present)
+
+# The '+' operator concatenates two lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+concatenated_list = list1 + list2
+print("Concatenated list:", concatenated_list)
+
+# The '*' operator repeats a list a certain number of times
+repeated_list = list1 * 3
+print("Repeated list:", repeated_list)
+
+# The 'None' keyword represents the absence of a value or a null value
+empty_list = None
+print("Empty list:", empty_list)
+
+# The 'min' function returns the minimum value in a list
+minimum_value = min(numbers)
+print("Minimum value:", minimum_value)
+
+# The 'max' function returns the maximum value in a list
+maximum_value = max(numbers)
+print("Maximum value:", maximum_value)
+
+# The 'index' method returns the index of the first occurrence of a value
+index_of_9 = numbers.index(9)
+print("Index of 9:", index_of_9)
+
+# The 'count' method returns the number of occurrences of a value in the list
+count_of_5 = numbers.count(5)
+print("Count of 5:", count_of_5)
 
 
 
