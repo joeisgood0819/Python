@@ -35,6 +35,10 @@ a: 1
 b: 2
 c: [3, 4]
 
+#佔位符號unpacking
+x = (1, 2, 3, 4)
+a, b, *_ = x
+
 single_element_tuple = (42,)
 
 # Using count to count occurrences of a value
