@@ -44,11 +44,6 @@ uppercase_str = "PYTHON"
 print(lowercase_str.islower())  # Output: True
 print(uppercase_str.isupper())  # Output: True
 
-#str.startswith(prefix), str.endswith(suffix)
-sentence = "Python is powerful and versatile."
-print(sentence.startswith("Python"))  # Output: True
-print(sentence.endswith("versatile."))  # Output: True
-
 #str.replace(old, new)
 message = "Hello, World! Hello, Python!"
 updated_message = message.replace("Hello", "Hi")
